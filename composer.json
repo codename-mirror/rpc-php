@@ -1,0 +1,14 @@
+{
+  "name": "codename-mirror/rpc-php",
+  "description": "Used as a library to talk with mirror.js frontend",
+  "keywords": ["application", "mirror.js"],
+  "license": "MIT",
+  "require-dev": {
+    "phpunit/phpunit": "^5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mirror\\Core\\": "src/"
+    }
+  }
+}
